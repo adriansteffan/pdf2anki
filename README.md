@@ -1,12 +1,10 @@
 # PDF2Anki
 
-This is a simple python script to convert PDF files to anki flashcards.
+This is a simple python script that converts PDF files to anki flashcards.
 This works for PDFs which pages consist of alternating front- and backsides. An example can be found [here](example.pdf).
 
 If you want to create flashcards on IPad with the Apple Pencil and import them into Anki, this is one of the easiest ways to achieve that.
 Flashcards++ from the Appstore allows you to export flashcards in the exact format specified.
-
-
 
 
 
