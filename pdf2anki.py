@@ -23,8 +23,8 @@ for i in range(0, len(pages)):
 
 with open('pdf2anki_%s.csv' % deck_name, 'a') as f:
 
-    f.write("\n".join(['Card_%05d;<img src="Image_%s_%05d.jpg"/>;<img src="Image_%s_%05d.jpg"/>\n' %
-                 (image_number, deck_name, image_number*2, deck_name, image_number * 2 + 1)
+    f.write("\n".join(['%s_%05d;<img src="Image_%s_%05d.jpg"/>;<img src="Image_%s_%05d.jpg"/>\n' %
+                 (deck_name, image_number, deck_name, image_number*2, deck_name, image_number * 2 + 1)
      for image_number in range(0, int(len(pages)/2))]))
 
 
